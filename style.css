@@ -1,0 +1,2401 @@
+body{
+    margin: 0,0,0,0;
+    
+}
+
+.section-1{
+     
+       height: 80vh;
+       background-color: #edf5f5;
+       background-image: url(./data/back-1.webp);
+       z-index: -1;
+       opacity: 0.9;
+       background-repeat: no-repeat;
+       background-size: cover;
+      
+}
+
+.header{
+  
+    height: 8vh;
+    background-color: #c5e0e0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    }
+
+    .logo-c{
+       border-radius: 10px;
+        width: 6vw;
+        height: 12vh;
+        margin-top: -0.8%;
+        margin-left: -3%;
+        background-image: url(./data/logo.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+
+.box{
+    height: 4vh;
+    width: 8vw;
+    margin: 2vh 5vw 2vh 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bakbak One", sans-serif;
+}
+
+.box:hover{
+    background-color: rgb(144, 172, 170);
+}
+
+.show{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink:2;
+}
+
+.back-design{
+   
+    height: 380px;
+    width: 350px;
+    margin: 5% 0 0 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(./data/back-d.jpg);
+    background-size: contain;
+}
+
+.center-img{
+  
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    z-index: 2;
+    margin: 40px 10px 10px 110px;
+    background-image: url(./data/youga-girl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.heading{
+    position: absolute;;
+    width: 700px;
+    height: 350px;
+    margin: 0.5% 0% 2% 35%;
+    
+   
+}
+
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(52, 196, 206);
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+}
+
+#para{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10% 10% 10%;
+    font-family: "Bakbak One", sans-serif;
+}
+
+#but-n{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+    margin: 18% 30% 50% 41%;
+    transition: background-color 1s ease;
+}
+
+#but-n:hover{
+    background-color: #45a049;
+}
+
+
+.section-2{
+    height: 90vh;
+    background-color: #4eb3b3;
+}
+
+
+
+
+
+.section-2-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+}
+
+#section-2-para{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 10% 3% 10%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.section-2-poster{
+    
+    height: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+.poster-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    width: 19vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+}
+
+.image-c{
+    
+    margin-top: 8.3%;
+    height: 33.5vh;
+    width: 16vw;
+    border-radius: 50%;
+}
+
+
+#img-1{
+    background-image: url(./data/img-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-2{
+    background-image: url(./data/img-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-3{
+    background-image: url(./data/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+.section-2-desc{
+    height: 22vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.box-d{
+    margin-top: 1%;
+    width: 19vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-desc-para{
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1rem;
+}
+
+
+.section-3{
+       height: 90vh;
+       background-color: #edf5f5;
+       background-image: url(./data/background.jpg);
+       z-index: -1;
+       opacity: 0.9;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-top: 50px;
+}
+
+.section-3-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 2rem;
+    display: block;
+}
+
+.section-3-status{
+    height: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+.circle{
+    margin-top: 2%;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 48%;
+    box-shadow: 0px 0px 10px 2px orange;
+}
+
+
+
+.section-3-status-h2{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.section-3-status-p{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+.section-4{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90vh;
+    background-color: #4eb3b3;
+   margin-top: 50px;
+}
+
+.section-4-desc{  
+    width: 50%;
+    display: inline;
+}
+
+.section-4-poster{
+    width: 50%;
+    background-image: url(./data/section-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.section-4-desc h1{
+
+    margin-top: 10%;
+    margin-left:8%;
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    display: block;
+}
+
+
+#section-4-desc-p{
+    margin-left:8%;
+    display: flex;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+#but-n1{
+    
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+    margin: 3% 50% 3% 40%;
+    transition: background-color 1s ease;
+}
+
+#but-n1:hover{
+    background-color: #45a049;
+}
+
+.section-5{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90vh;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+}
+
+.section-5-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    margin-left: -5%;
+}
+
+#section-5-para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 10% 3% 5%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.section-5-pricing{
+    display: flex;
+    height: 50vh;
+    width: 95vw;
+    margin-top: 15%;
+    margin-left: -95vw;
+    margin-right: 5vw;
+    justify-content: space-evenly;
+}
+
+.section-5-pricing-box{
+    height: 40vh;
+    width: 20vw;
+    margin-top: 3%;
+    background-color:aliceblue;
+    box-shadow: 0px 0px 20px 5px black;
+    margin-left: -5%;
+
+}
+
+.section-5-pricing-box h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 2.0rem;
+}
+
+
+.section-5-pricing-box i{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-size: 5rem;
+}
+
+.but-n2{
+    height: 50px;
+    width:13vw;
+    background-color: #6db5a8;
+    color: white;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 5% 0% 0% 16%;
+    border: 2px solid #6db5a8;
+    border-radius: 20px;
+    transition: background-color 1s ease;
+}
+
+.but-n2:hover{
+    background-color: #45a049;
+}
+
+.section-6{
+    height: 80vh;
+    background-color:rgb(110, 197, 203);
+    margin-top: 50px;
+}
+
+.section-6-poster{
+
+    height: 40vh;
+    width:19vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    display: block;
+    margin-left: 630px;
+}
+
+.section-6-poster img{
+    margin-top: 9%;
+    height: 33vh;
+    width:16.3vw;
+    border-radius: 50%;
+    margin-left: 7%;
+}
+
+.section-6-poster-des{
+    height: 35vh;
+    width: 70vw;
+    margin-top: 2%;
+    margin-left: 230px;
+
+}
+
+.section-6-poster-des p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+.section-6-poster-des h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(80, 102, 108);
+    font-family: "Bakbak One", sans-serif;
+    font-size: 3rem;
+    margin-top: -2%;
+}
+
+.section-7{
+    height: 80vh;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+
+}
+
+.section-7-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+}
+
+.section-7-heading p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+}
+
+
+.section-7-heading input{
+    display: flex;
+    justify-content: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+    width: 50vw;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: inline;
+ 
+}
+
+.section-7-heading button{
+
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+    width: 11vw;
+    border-radius: 15px;
+    margin-left: -11%;
+    transition: background-color 1s ease;
+  
+
+}
+
+.section-7-heading button:hover{
+    background-color: #45a049;
+}
+
+
+.section-8{
+    height: 50vh;
+    background-color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-8-part1{
+    height: 40vh;
+    width: 30vw;
+    display: inline-block;
+    margin: 0% 0% 0% 2%;
+}
+
+.section-8-part2{
+    height: 50vh;
+    width: 15vw;
+}
+
+.section-8-part3{
+    height: 50vh;
+    width: 15vw;
+}
+
+.section-8-part4{
+    height: 50vh;
+    width: 15vw;
+}
+
+.section-8-h{
+    display: flex;
+    color: #4eb3b3;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2.5rem;
+}
+
+.section-8-p{
+    display: flex;
+    color: black;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-8-h3{
+    display: flex;
+    font-family: "Bakbak One", sans-serif;
+    color: black;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 259px) {
+    /* CSS rules for viewports with a width between 0 and 300 pixels */
+
+    
+
+    .section-1{
+       
+        height: 120vh;
+        background-color: #edf5f5;
+        width: 400vw;
+
+       
+ }
+    .box{
+      font-size: 1.5rem; /* Adjust font size for mobile */
+      height: 5vh;
+      width: 20vw;
+      margin: 2vh 5vw 2vh 0vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Bakbak One", sans-serif;
+  }
+
+  
+.box:hover{
+    background-color: rgb(144, 172, 170);
+}
+
+
+  .logo-c{
+    border-radius: 10px;
+     width: 30vw;
+     height: 50vh;
+     margin-top: -1%;
+     margin-left: -1%;
+     background-image: url(./data/logo.jpeg);
+     background-size: contain;
+     background-repeat: no-repeat;
+
+ }
+
+
+
+
+ .back-design{
+   
+    height: 310px;
+    width: 310px;
+    margin: 10% 0 0 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(./data/back-d.jpg);
+    background-size: contain;
+}
+
+.center-img{
+
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    z-index: 2;
+    margin: 30px 10px 10px 70px;
+    background-image: url(./data/youga-girl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.heading{
+    position: absolute;;
+    width: 700px;
+    height: 350px;
+    margin: 0% 0% 2% 120%;
+   
+}
+
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(52, 196, 206);
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+}
+
+#para{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10% 10% 5%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+#but-n{
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 30% 30% 50% 41%;
+    transition: background-color 1s ease;
+}
+
+#but-n:hover{
+    background-color: #45a049;
+}
+
+
+.section-2{
+    background-color: #4eb3b3;
+    height: 110vh;
+    width: 400vw;
+}
+
+.section-2-heading h1{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+
+}
+
+#section-2-para{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 10% 3% 10%;
+    font-family: "Bakbak One", sans-serif;
+    
+}
+
+
+.section-2-poster{
+    
+    height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+
+.poster-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    width: 60vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-top: 4%;
+}
+
+.image-c{
+    
+    margin-top: 8%;
+    height: 23vh;
+    width: 49vw;
+    border-radius: 50%;
+    margin-left: -1%;
+}
+
+#img-1{
+    background-image: url(./data/img-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-2{
+    background-image: url(./data/img-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-3{
+    background-image: url(./data/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.section-2-desc{
+    height: 20vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: -8%;
+    
+}
+
+.box-d{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-desc-para{
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1rem;
+}
+
+.section-3{
+    height: 110vh;
+    width: 400vw;
+    background-color: #edf5f5;
+    background-image: url(./data/back-2-small-1.jpg);
+    z-index: -1;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-3-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 2rem;
+    display: block;
+}
+
+#section-2-para{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.section-3-status{
+    height: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+.circle{
+    margin-top: 3%;
+    height: 40vh;
+    width: 90vw;
+    border-radius: 48%;
+    box-shadow: 0px 0px 10px 2px orange;
+}
+
+
+
+.section-3-status-h2{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.section-3-status-p{
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.section-4{
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+   
+}
+
+
+.section-4-desc h1{
+    margin-top: 17%;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4.5rem;
+}
+
+
+#section-4-desc-p{
+    margin-left:8%;
+    display: flex;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+
+
+#but-n1{
+   
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 3% 50% 3% 20%;
+    transition: background-color 0.3s ease;
+}
+
+#but-n1:hover{
+    background-color: #45a049;
+}
+
+
+.section-5{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+}
+
+#section-5-para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 30% 10% 15%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.section-5-heading h1{
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-left: -15%;
+}
+
+
+.section-5-pricing{
+    display: block;
+    justify-content:space-evenly;
+    height: 100vh;
+    width: 1200px;
+    margin-top: 2%;
+    margin-right: 50vw;
+    margin-left: -10px;
+
+}
+
+
+.section-5-pricing-box{
+    height: 31vh;
+    width: 250px;
+    margin-top: 6%;
+    margin-left: 20%;
+    background-color:aliceblue;
+
+}
+
+
+.section-5-pricing-box h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.section-5-pricing-box i{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-size: 2rem;
+}
+
+.but-n2{
+    height: 30px;
+    width:50vw;
+    background-color: #6db5a8;
+    color: white;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 0.8rem;
+    margin: 7% 0% 0% 25%;
+    border: 2px solid #6db5a8;
+    border-radius: 20px;
+    transition: background-color 1s ease;
+}
+
+.but-n2:hover{
+    background-color: #45a049;
+}
+
+.section-6{
+   
+    height: 110vh;
+    width: 400vw;
+    background-color:rgb(110, 197, 203);
+
+}
+
+.section-6-poster{
+    margin-top: 5%;
+    height: 40vh;
+    width:94vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    display: block;
+    margin-left: 40%;
+}
+
+.section-6-poster img{
+    margin-top: 9%;
+    height: 35vh;
+    width:79vw;
+    border-radius: 50%;
+    margin-left: 8%;
+}
+
+
+.section-6-poster-des{
+    height: 40vh;
+    width: 250vw;
+    margin-top: 2%;
+    margin-left: 200px;
+}
+
+.section-6-poster-des p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.2rem;
+}
+
+.section-6-poster-des h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(80, 102, 108);
+    font-family: "Bakbak One", sans-serif;
+    font-size: 4rem;
+    margin-top: -2%;
+}
+
+
+.section-7{
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+
+}
+
+.section-7-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    padding-top: 2%;
+}
+
+.section-7-heading p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-7-heading input{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+    width: 250vw;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: inline;
+
+}
+
+.section-7-heading button{
+
+    font-family: "Bakbak One", sans-serif;
+    height: 8vh;
+    font-size: 1.8rem;
+    width: 80vw;
+    border-radius: 50px;
+    margin-left: -20%;
+    transition: background-color 1s ease;
+
+
+}
+
+.section-7-heading button:hover{
+    background-color: #45a049;
+}
+
+
+
+.section-8{
+    height: 80vh;
+    width: 400vw;
+    background-color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-8-part1{
+    height: 60vh;
+    width: 80vw;
+    display: inline-block;
+    margin: 0% 0% 0% 2%;
+}
+
+.section-8-part2{
+
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part3{
+   
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part4{
+    
+    height: 80vh;
+    width: 70vw;
+    margin-right: 10%;
+}
+
+.section-8-h{
+    display: flex;
+    color: #4eb3b3;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-8-p{
+    display: flex;
+    color: black;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-8-h3{
+    display: flex;
+    font-family: "Bakbak One", sans-serif;
+    color: black;
+    font-size: 1.3rem;
+}
+  }
+
+  @media only screen and (min-width: 260px) and (max-width: 399px) {
+
+
+    
+
+    .section-1{
+       
+        height: 120vh;
+        background-color: #edf5f5;
+        width: 400vw;
+
+       
+ }
+    .box{
+      font-size: 1.5rem; /* Adjust font size for mobile */
+      height: 5vh;
+      width: 20vw;
+      margin: 2vh 5vw 2vh 0vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Bakbak One", sans-serif;
+  }
+
+  
+.box:hover{
+    background-color: rgb(144, 172, 170);
+}
+
+
+  .logo-c{
+    border-radius: 10px;
+     width: 30vw;
+     height: 50vh;
+     margin-top: -1%;
+     margin-left: -1%;
+     background-image: url(./data/logo.jpeg);
+     background-size: contain;
+     background-repeat: no-repeat;
+
+ }
+
+
+
+
+ .back-design{
+   
+    height: 310px;
+    width: 310px;
+    margin: 10% 0 0 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(./data/back-d.jpg);
+    background-size: contain;
+}
+
+.center-img{
+
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    z-index: 2;
+    margin: 30px 10px 10px 70px;
+    background-image: url(./data/youga-girl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.heading{
+    position: absolute;;
+    width: 700px;
+    height: 350px;
+    margin: 0% 0% 2% 120%;
+   
+}
+
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(52, 196, 206);
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+}
+
+#para{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10% 10% 5%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+#but-n{
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 30% 30% 50% 41%;
+    transition: background-color 1s ease;
+}
+
+#but-n:hover{
+    background-color: #45a049;
+}
+
+
+.section-2{
+    background-color: #4eb3b3;
+    height: 110vh;
+    width: 400vw;
+}
+
+.section-2-heading h1{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    display: block;
+
+}
+
+#section-2-para{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 10% 3% 10%;
+    font-family: "Bakbak One", sans-serif;
+    
+}
+
+
+.section-2-poster{
+    
+    height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+}
+
+
+.poster-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30vh;
+    width: 60vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-top: 4%;
+}
+
+.image-c{
+    margin-top: 8%;
+    height: 23vh;
+    width: 49vw;
+    border-radius: 50%;
+    margin-left: -1%;
+   
+}
+
+#img-1{
+    background-image: url(./data/img-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-2{
+    background-image: url(./data/img-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-3{
+    background-image: url(./data/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.section-2-desc{
+    height: 20vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: -5%;
+    
+}
+
+.box-d{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-desc-para{
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1rem;
+}
+
+.section-3{
+    height: 110vh;
+    width: 400vw;
+    background-color: #edf5f5;
+    background-image: url(./data/back-2-small-1.jpg);
+    z-index: -1;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-3-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 2rem;
+    display: block;
+}
+
+#section-2-para{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.section-3-status{
+    height: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+.circle{
+    margin-top: 3%;
+    height: 40vh;
+    width: 90vw;
+    border-radius: 48%;
+    box-shadow: 0px 0px 10px 2px orange;
+}
+
+
+
+.section-3-status-h2{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.section-3-status-p{
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+.section-4{
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+   
+}
+
+
+.section-4-desc h1{
+    margin-top: 17%;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4.5rem;
+}
+
+
+#section-4-desc-p{
+    margin-left:8%;
+    display: flex;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+
+
+#but-n1{
+   
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 3% 50% 3% 20%;
+    transition: background-color 0.3s ease;
+}
+
+#but-n1:hover{
+    background-color: #45a049;
+}
+
+
+.section-5{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+}
+
+#section-5-para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 30% 10% 15%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+
+.section-5-heading h1{
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-left: -15%;
+}
+
+
+.section-5-pricing{
+    display: block;
+    justify-content:space-evenly;
+    height: 100vh;
+    width: 1200px;
+    margin-top: 2%;
+    margin-right: 50vw;
+    margin-left: -10px;
+
+}
+
+
+.section-5-pricing-box{
+    height: 30vh;
+    width: 250px;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color:aliceblue;
+
+}
+
+
+.section-5-pricing-box h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.3rem;
+}
+
+
+.section-5-pricing-box i{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-size: 2rem;
+}
+
+.but-n2{
+    height: 30px;
+    width:50vw;
+    background-color: #6db5a8;
+    color: white;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 0.8rem;
+    margin: 7% 0% 0% 20%;
+    border: 2px solid #6db5a8;
+    border-radius: 20px;
+    transition: background-color 1s ease;
+}
+
+.but-n2:hover{
+    background-color: #45a049;
+}
+
+.section-6{
+   
+    height: 110vh;
+    width: 400vw;
+    background-color:rgb(110, 197, 203);
+
+}
+
+.section-6-poster{
+    margin-top: 5%;
+    height: 45vh;
+    width:80vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    display: block;
+    margin-left: 40%;
+}
+
+.section-6-poster img{
+    margin-top: 9%;
+    height: 37vh;
+    width:68vw;
+    border-radius: 50%;
+    margin-left: 8%;
+}
+
+
+.section-6-poster-des{
+    height: 40vh;
+    width: 250vw;
+    margin-top: 2%;
+    margin-left: 200px;
+}
+
+.section-6-poster-des p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.2rem;
+}
+
+.section-6-poster-des h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(80, 102, 108);
+    font-family: "Bakbak One", sans-serif;
+    font-size: 4rem;
+    margin-top: -2%;
+}
+
+
+.section-7{
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+
+}
+
+.section-7-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    padding-top: 2%;
+}
+
+.section-7-heading p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-7-heading input{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+    width: 200vw;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: inline;
+
+}
+
+.section-7-heading button{
+
+    font-family: "Bakbak One", sans-serif;
+    height: 8vh;
+    font-size: 1.8rem;
+    width: 80vw;
+    border-radius: 50px;
+    margin-left: -20%;
+    transition: background-color 1s ease;
+
+
+}
+
+.section-7-heading button:hover{
+    background-color: #45a049;
+}
+
+
+
+.section-8{
+    height: 80vh;
+    width: 400vw;
+    background-color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-8-part1{
+    height: 60vh;
+    width: 80vw;
+    display: inline-block;
+    margin: 0% 0% 0% 2%;
+}
+
+.section-8-part2{
+
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part3{
+   
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part4{
+    
+    height: 80vh;
+    width: 70vw;
+    margin-right: 10%;
+}
+
+.section-8-h{
+    display: flex;
+    color: #4eb3b3;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-8-p{
+    display: flex;
+    color: black;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-8-h3{
+    display: flex;
+    font-family: "Bakbak One", sans-serif;
+    color: black;
+    font-size: 1.3rem;
+}
+
+  }
+
+
+  
+
+  @media only screen and (min-width: 400px) and (max-width: 500px) {
+
+    
+    
+
+    .section-1{
+       
+        height: 130vh;
+        background-color: #edf5f5;
+        width: 400vw;
+
+       
+ }
+    .box{
+      font-size: 1.5rem; /* Adjust font size for mobile */
+      height: 5vh;
+      width: 40vw;
+      margin: 2vh 5vw 2vh 0vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Bakbak One", sans-serif;
+  }
+
+  
+.box:hover{
+    background-color: rgb(144, 172, 170);
+}
+
+
+  .logo-c{
+    border-radius: 10px;
+     width: 30vw;
+     height: 50vh;
+     margin-top: -1%;
+     margin-left: -1%;
+     background-image: url(./data/logo.jpeg);
+     background-size: contain;
+     background-repeat: no-repeat;
+
+ }
+
+
+
+
+ .back-design{
+   
+    height: 310px;
+    width: 310px;
+    margin: 10% 0 0 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(./data/back-d.jpg);
+    background-size: contain;
+}
+
+.center-img{
+
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    z-index: 2;
+    margin: 30px 10px 10px 70px;
+    background-image: url(./data/youga-girl.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.heading{
+    position: absolute;;
+    width: 700px;
+    height: 350px;
+    margin: -20% 0% 2% 120%;
+   
+}
+
+
+.heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(52, 196, 206);
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    display: block;
+}
+
+#para{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10% 10% 5%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+#but-n{
+    position: absolute;
+    height: 70px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 30% 30% 50% 41%;
+    transition: background-color 1s ease;
+}
+
+#but-n:hover{
+    background-color: #45a049;
+}
+
+
+.section-2{
+    background-color: #4eb3b3;
+    height: 130vh;
+    width: 400vw;
+}
+
+.section-2-heading h1{
+    padding-left: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    display: block;
+
+}
+
+#section-2-para{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1% 10% 3% 10%;
+    font-family: "Bakbak One", sans-serif;
+    
+}
+
+
+.section-2-poster{
+    
+    height: 50vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-left: 5%;
+
+}
+
+
+.poster-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 35vh;
+    width: 80vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    margin-top: 1%;
+}
+
+.image-c{
+    
+    margin-top: 5%;
+    height: 30vh;
+    width: 40vw;
+    border-radius: 50%;
+    margin-left: -40%;
+}
+
+#img-1{
+    background-image: url(./data/img-12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-2{
+    background-image: url(./data/img-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+#img-3{
+    background-image: url(./data/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.section-2-desc{
+    height: 20vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: -6%;
+    
+}
+
+.box-d{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-2-desc-para{
+    color: white;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-3{
+    height: 130vh;
+    width: 400vw;
+    background-color: #edf5f5;
+    background-image: url(./data/back-2-small-1.jpg);
+    z-index: -1;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.section-3-heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 2rem;
+    display: block;
+}
+
+#section-2-para{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.section-3-status{
+    height: 40vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+.circle{
+    margin-top: 3%;
+    height: 40vh;
+    width: 70vw;
+    border-radius: 48%;
+    box-shadow: 0px 0px 10px 2px orange;
+}
+
+
+
+.section-3-status-h2{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.section-3-status-p{
+    margin-top: -3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+.section-4{
+    height: 130vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+   
+}
+
+
+.section-4-desc h1{
+    margin-top: 17%;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+}
+
+
+#section-4-desc-p{
+    margin-left:8%;
+    display: flex;
+    color: black;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+
+#but-n1{
+   
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(18, 137, 161);
+    color: #edf5f5;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    margin: 3% 50% 3% 20%;
+    transition: background-color 0.3s ease;
+}
+
+#but-n1:hover{
+    background-color: #45a049;
+}
+
+
+.section-5{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 130vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+}
+
+#section-5-para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5% 30% 10% 15%;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.section-5-heading h1{
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-left: -15%;
+}
+
+
+.section-5-pricing{
+    display: block;
+    justify-content:space-evenly;
+    height: 100vh;
+    width: 1200px;
+    margin-top: 2%;
+    margin-right: 50vw;
+    margin-left: -10px;
+
+}
+
+
+.section-5-pricing-box{
+    height: 35vh;
+    width: 300px;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color:aliceblue;
+
+}
+
+
+.section-5-pricing-box h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+}
+
+
+.section-5-pricing-box i{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #4eb3b3;
+    font-size: 2.5rem;
+}
+
+.but-n2{
+    height: 30px;
+    width:50vw;
+    background-color: #6db5a8;
+    color: white;
+    font-family:  "Bakbak One", sans-serif;
+    font-size: 1rem;
+    margin: 5% 0% 0% 19%;
+    border: 2px solid #6db5a8;
+    border-radius: 20px;
+    transition: background-color 1s ease;
+}
+
+.but-n2:hover{
+    background-color: #45a049;
+}
+
+.section-6{
+   
+    height: 130vh;
+    width: 400vw;
+    background-color:rgb(110, 197, 203);
+
+}
+
+.section-6-poster{
+    margin-top: 5%;
+    height: 50vh;
+    width:120vw;
+    background-image: url(./data/poster-back.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5%;
+    display: block;
+    margin-left: 40%;
+}
+
+.section-6-poster img{
+    margin-top: 6%;
+    height: 41vh;
+    width:90vw;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+
+
+.section-6-poster-des{
+    height: 40vh;
+    width: 250vw;
+    margin-top: 2%;
+    margin-left: 270px;
+}
+
+.section-6-poster-des p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-6-poster-des h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(80, 102, 108);
+    font-family: "Bakbak One", sans-serif;
+    font-size: 4rem;
+    margin-top: -2%;
+}
+
+
+.section-7{
+    height: 110vh;
+    width: 400vw;
+    background-color: #4eb3b3;
+    margin-top: 50px;
+
+}
+
+.section-7-heading h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 4rem;
+    padding-top: 2%;
+}
+
+.section-7-heading p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-7-heading input{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.8rem;
+    width: 200vw;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 5%;
+    display: inline;
+
+}
+
+.section-7-heading button{
+
+    font-family: "Bakbak One", sans-serif;
+    height: 8vh;
+    font-size: 1.8rem;
+    width: 80vw;
+    border-radius: 50px;
+    margin-left: -20%;
+    transition: background-color 1s ease;
+
+
+}
+
+.section-7-heading button:hover{
+    background-color: #45a049;
+}
+
+
+
+.section-8{
+    height: 80vh;
+    width: 400vw;
+    background-color: white;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-8-part1{
+    height: 60vh;
+    width: 80vw;
+    display: inline-block;
+    margin: 0% 0% 0% 2%;
+}
+
+.section-8-part2{
+
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part3{
+   
+    height: 80vh;
+    width: 70vw;
+}
+
+.section-8-part4{
+    
+    height: 80vh;
+    width: 70vw;
+    margin-right: 10%;
+}
+
+.section-8-h{
+    display: flex;
+    color: #4eb3b3;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 2rem;
+}
+
+.section-8-p{
+    display: flex;
+    color: black;
+    font-family: "Bakbak One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.section-8-h3{
+    display: flex;
+    font-family: "Bakbak One", sans-serif;
+    color: black;
+    font-size: 1.3rem;
+}
+
+  }
+
+
+
+
